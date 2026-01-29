@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PakePlus</title>
-    </head>
-    <body>
-        PakePlus
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Java補完計劃</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="description" content="Description">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="lib/vue.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="cat.ico">
+</head>
+<body>
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: 'Java補完計劃',
+    loadSidebar: true,
+    auto2top: true,
+    sidebarDisplayLevel: 0,
+    alias: {
+      '/.*/_sidebar.md': '/_sidebar.md'
+    },
+    pagination: {
+      previousText: '上一章节',
+      nextText: '下一章节',
+      crossChapter: false
+    }
+  }
+</script>
+<!-- Put them above docsify.min.js -->
+<script src="lib/docsify.min.js"></script>
+<!-- sidebar collapse -->
+<script src="lib/docsify-sidebar-collapse.min.js"></script>
+<!-- code render-->
+<script src="lib/prism-bash.js"></script>
+<script src="lib/prism-python.js"></script>
+<script src="lib/docsify-pagination.min.js"></script>
+<script src="lib/docsify-copy-code.min.js"></script>
+<!-- CDN files for docsify-katex -->
+<script src="lib/docsify-katex.js"></script>
+<link
+        rel="stylesheet"
+        href="lib/katex.min.css"
+/>
+</body>
 </html>
